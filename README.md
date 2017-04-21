@@ -35,8 +35,10 @@ vim
 ```
 
 The iTerm2 themes are inside the `themes` folder.
-You have to import them (Preferences -> Profiles -> Colors -> Color Presets... -> Import...)
-And choose the one you want, for example: (Preferences -> Profiles -> Colors -> Color Presets... -> Nord)
+
+You have to import them `(Preferences -> Profiles -> Colors -> Color Presets... -> Import...)`
+
+And choose the one you want, for example: `(Preferences -> Profiles -> Colors -> Color Presets... -> Nord)`
 
 That's it :)
 
