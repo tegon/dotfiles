@@ -16,12 +16,7 @@ files=~/dotfiles/*
 
 for file in $files; do
   filename=$(basename $file)
-  [[ $filename =~ ^(setup.sh|vim|config|themes|LICENSE|README)$ ]] && continue
+  [[ $filename =~ ^(setup.sh|config|themes|LICENSE|README)$ ]] && continue
   echo "Creating symlink for $filename"
   ln -s $file ~/dot-test/$filename
 done
-
-# echo "Setup vim plugins..."
-#
-# mkdir -p ~/dot-test/.vim/bundle
-# cp -R ~/dotfiles/vim/bundle/* ~/dot-test/.vim/
