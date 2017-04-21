@@ -20,3 +20,9 @@ for file in $files; do
   echo "Creating symlink for $filename"
   ln -s $file ~/$filename
 done
+
+echo "Installing dependencies..."
+
+npm install -g diff-so-fancy
+
+echo "Done :)"
