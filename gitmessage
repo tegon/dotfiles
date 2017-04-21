@@ -1,0 +1,18 @@
+
+
+# 50-character subject line
+##################################################
+# Use the imperative mood here.
+# A properly formed Git commit subject line should
+# always be able to complete the following sentence:
+# If applied, this commit will *your subject line here*
+#
+# 72-character wrapped longer description.
+########################################################################
+# This should answer:
+# * Why was this change necessary?
+# * How does it address the problem?
+# * Are there any side effects?
+# * what and why vs. how
+#
+# Include a link to the ticket, if any.
