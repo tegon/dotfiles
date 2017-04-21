@@ -7,7 +7,7 @@ config_files=~/dotfiles/config/*
 for file in $config_files; do
   config=$(basename $file)
   echo "Creating symlink for .$config"
-  ln -s $file ~/dot-test/.$config
+  ln -s $file ~/.$config
 done
 
 echo "Setup other files..."
@@ -18,5 +18,5 @@ for file in $files; do
   filename=$(basename $file)
   [[ $filename =~ ^(setup.sh|config|themes|LICENSE|README)$ ]] && continue
   echo "Creating symlink for $filename"
-  ln -s $file ~/dot-test/$filename
+  ln -s $file ~/$filename
 done
