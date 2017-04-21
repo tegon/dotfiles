@@ -1,0 +1,67 @@
+" .vimrc
+set encoding=utf-8
+syntax on                         " show syntax highlighting
+filetype plugin indent on
+set autoindent                    " set auto indent
+set ts=2                          " set indent to 2 spaces
+set shiftwidth=2
+set expandtab                     " use spaces, not tab characters
+set nocompatible                  " don't need to be compatible with old vim
+set relativenumber                " show relative line numbers
+set showmatch                     " show bracket matches
+set ignorecase                    " ignore case in search
+set hlsearch                      " highlight all search matches
+set cursorline                    " highlight current line
+set smartcase                     " pay attention to case when caps are used
+set incsearch                     " show search results as I type
+set ttimeoutlen=100               " decrease timeout for faster insert with 'O'
+set vb                            " enable visual bell (disable audio bell)
+set ruler                         " show row and column in footer
+set scrolloff=2                   " minimum lines above/below cursor
+set laststatus=2                  " always show status bar
+set list listchars=tab:»·,trail:· " show extra space characters
+set nofoldenable                  " disable code folding
+set clipboard=unnamed             " use the system clipboard
+set wildmenu                      " enable bash style tab completion
+set wildmode=list:longest,full
+set noshowmode
+
+" Load plugins using Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'rking/ag.vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'majutsushi/tagbar'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'tpope/vim-surround'
+Plugin 'chriskempson/base16-vim'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-bundler'
+Plugin 'christoomey/vim-rfactory'
+
+call vundle#end()
+
+" NERDTree
+noremap nt :NERDTreeToggle<CR>
+
+" Tagbar
+noremap tb :TagbarToggle<CR>
+
+" EasyAlign
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+
+" set leader key to comma
+let mapleader = ","
