@@ -16,7 +16,7 @@ files=~/dotfiles/*
 
 for file in $files; do
   filename=$(basename $file)
-  [[ $filename =~ ^(setup.sh|config|themes|LICENSE|README)$ ]] && continue
+  [[ $filename =~ ^(setup.sh|config|themes|LICENSE|README|screenshot.png|icon.png)$ ]] && continue
   echo "Creating symlink for $filename"
   ln -s $file ~/$filename
 done
