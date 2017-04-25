@@ -25,4 +25,6 @@ echo "Installing dependencies..."
 
 npm install -g diff-so-fancy
 
+brew install the_silver_searcher
+
 echo "Done :)"
