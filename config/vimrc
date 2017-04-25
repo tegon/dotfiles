@@ -56,6 +56,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'christoomey/vim-rfactory'
+Plugin 'tpope/vim-dispatch'
 
 call vundle#end()
 
