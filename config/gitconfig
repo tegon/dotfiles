@@ -17,6 +17,7 @@
   rebase = true
 [core]
 	editor = /usr/bin/vim
+  excludesfile = ~/.gitignore
 [merge]
   ff = false
 [commit]
