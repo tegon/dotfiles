@@ -71,3 +71,16 @@ nmap ga <Plug>(EasyAlign)
 
 " set leader key to comma
 let mapleader = ","
+
+" default colorscheme
+colorscheme nord
+
+" lightline.vim config
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'component': {
+      \   'readonly': '%{&readonly?"x":""}',
+      \ },
+      \ 'separator': { 'left': '', 'right': '' },
+      \ 'subseparator': { 'left': '|', 'right': '|' }
+      \ }
