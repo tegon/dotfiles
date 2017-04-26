@@ -71,6 +71,9 @@ noremap tb :TagbarToggle<CR>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
+" ctrlp.vim
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
 " set leader key to comma
 let mapleader = ","
 
