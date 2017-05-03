@@ -16,7 +16,7 @@
 [pull]
   rebase = true
 [core]
-	editor = /usr/bin/vim
+	editor = /usr/local/bin/vim
   excludesfile = ~/.gitignore
 [merge]
   ff = false
