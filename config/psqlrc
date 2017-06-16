@@ -1,5 +1,2 @@
 /* display queries execution time */
 \timing
-
-/* wrap results in display */
-\x
