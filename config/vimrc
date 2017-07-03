@@ -58,6 +58,7 @@ Plugin 'tpope/vim-bundler'
 Plugin 'christoomey/vim-rfactory'
 Plugin 'tpope/vim-dispatch'
 Plugin 'janko-m/vim-test'
+Plugin 'tpope/vim-rhubarb'
 
 call vundle#end()
 
