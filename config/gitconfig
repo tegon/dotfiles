@@ -14,6 +14,7 @@
 [user]
 	name = Leonardo Tegon
 	email = ltegon93@gmail.com
+	signingkey = F5FF8C2495DEC4A8
 [pull]
   rebase = true
 [core]
@@ -23,3 +24,4 @@
   ff = false
 [commit]
   template = ~/.gitmessage
+	gpgsign = true
