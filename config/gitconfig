@@ -15,6 +15,8 @@
 	name = Leonardo Tegon
 	email = ltegon93@gmail.com
 	signingkey = F5FF8C2495DEC4A8
+[includeIf "gitdir:~/src/private/"]
+  path = ~/.gitconfig-work
 [pull]
   rebase = true
 [core]
