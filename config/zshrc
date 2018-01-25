@@ -12,7 +12,7 @@ ZSH_THEME=""
 # #
 # # Example format:
 # #   plugins=(rails git textmate ruby)
-plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
