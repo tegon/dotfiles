@@ -10,21 +10,4 @@ for file in $config_files; do
   ln -s $file ~/.$config
 done
 
-echo "Setup other files..."
-
-files=~/dotfiles/*
-
-for file in $files; do
-  filename=$(basename $file)
-  [[ $filename =~ ^(setup.sh|config|themes|LICENSE|README|screenshot.png|icon.png)$ ]] && continue
-  echo "Creating symlink for $filename"
-  ln -s $file ~/$filename
-done
-
-echo "Installing dependencies..."
-
-npm install -g diff-so-fancy
-
-brew install the_silver_searcher
-
 echo "Done :)"

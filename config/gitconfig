@@ -26,7 +26,6 @@
   ff = false
 [commit]
   template = ~/.gitmessage
-	gpgsign = true
 [rerere]
   enabled = true
 [rebase]
