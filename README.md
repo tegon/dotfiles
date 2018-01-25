@@ -23,8 +23,8 @@ Then run the setup script:
 
 ```bash
 cd ~/dotfiles
-chmod +x setup.sh
-./setup.sh
+chmod +x script/setup
+script/setup
 ```
 
 Install the vim plugins:
