@@ -10,6 +10,11 @@ for file in $config_files; do
   ln -s $file ~/.$config
 done
 
+echo "Creating src directory..."
 mkdir -p ~/src/private
+
+echo "Setting iterm2 preferences folder..."
+defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "~/dotfiles/iterm"
+defaults write com.googlecode.iterm2 "LoadPrefsFromCustomFolder" -bool true
 
 echo "Done :)"
