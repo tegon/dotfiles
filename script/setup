@@ -1,5 +1,13 @@
 #!/bin/bash
 
+echo "Installing Oh my ZSH..."
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+chsh -s /bin/zsh
+
+echo "Installing Vundle..."
+mkdir -p ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 echo "Setup configuration files..."
 
 config_files=~/dotfiles/config/*
@@ -17,7 +25,7 @@ echo "Setting iterm2 preferences folder..."
 defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "~/dotfiles/iterm"
 defaults write com.googlecode.iterm2 "LoadPrefsFromCustomFolder" -bool true
 
-echo "Installing dependencies..."
+echo "Installing ZSH pure prompt..."
 npm install --global pure-prompt
 
 echo "Done :)"
