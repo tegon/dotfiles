@@ -61,13 +61,6 @@ call vundle#end()
 " NERDTree
 noremap nt :NERDTreeToggle<CR>
 
-" Tagbar
-noremap tb :TagbarToggle<CR>
-
-" EasyAlign
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
-
 " ctrlp.vim
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
