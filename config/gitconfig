@@ -14,7 +14,7 @@
 [user]
 	name = Leonardo Tegon
 	email = ltegon93@gmail.com
-	signingkey = F5FF8C2495DEC4A8
+  signingKey = A2A555407E152BD3
 [includeIf "gitdir:~/src/private/"]
   path = ~/.gitconfig-work
 [pull]
@@ -26,6 +26,7 @@
   ff = false
 [commit]
   template = ~/.gitmessage
+  gpgsign = true
 [rerere]
   enabled = true
 [rebase]
