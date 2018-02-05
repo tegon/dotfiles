@@ -15,7 +15,6 @@ set hlsearch                      " highlight all search matches
 set smartcase                     " pay attention to case when caps are used
 set incsearch                     " show search results as I type
 set ttimeoutlen=100               " decrease timeout for faster insert with 'O'
-set vb                            " enable visual bell (disable audio bell)
 set ruler                         " show row and column in footer
 set scrolloff=2                   " minimum lines above/below cursor
 set laststatus=2                  " always show status bar
@@ -32,6 +31,8 @@ nnoremap <C-H> <C-W><C-H>
 " more natural split opening
 set splitbelow
 set splitright
+" enable mouse integration
+set mouse=a
 
 " Load plugins using Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -55,6 +56,7 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'janko-m/vim-test'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'AndrewRadev/splitjoin.vim'
 
 call vundle#end()
 
