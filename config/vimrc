@@ -32,8 +32,8 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 " enable mouse integration
-set mouse=a
-
+set mouse=a                       " enable mouse integration
+set regexpengine=1                " improve performance for Ruby files https://coderwall.com/p/zxorna/ruby-files-really-slow-in-vim
 " Load plugins using Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
