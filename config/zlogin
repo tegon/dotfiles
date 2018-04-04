@@ -7,4 +7,7 @@ export NVM_DIR="$HOME/.nvm"
 # Keep shell history for erlang/elixir
 export ERL_AFLAGS="-kernel shell_history enabled"
 
+# Set editor to open ruby gems using `bundle open gem`
+export EDITOR="vim"
+
 PATH=$PATH:/usr/local/sbin
