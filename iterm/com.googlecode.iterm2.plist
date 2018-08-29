@@ -1484,10 +1484,6 @@
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
-	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/iterm</string>
-	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -1519,22 +1515,16 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>521 1020 445 77 -170 800 1680 1027 </string>
-	<key>NSWindow Frame ProfilesPanel</key>
-	<string>-231 1498 735 382 -309 800 1920 1080 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>447 1425 400 129 -309 800 1920 1080 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>341 1316 620 392 -309 800 1920 1080 </string>
+	<string>328 1316 620 392 -322 800 1920 1080 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>-40 926 606 469 -309 800 1920 1080 </string>
+	<string>-53 926 606 469 -322 800 1920 1080 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>208 195 796 473 0 0 1280 777 </string>
+	<string>66 1213 1016 512 -322 800 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>193 740 1280 773 0 0 1280 777 </string>
+	<string>-322 800 1920 1058 -322 800 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>152 50 570 452 0 0 1280 777 </string>
+	<string>184 812 810 527 -322 800 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2276,13 +2266,15 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>A61BA250-1232-4EDF-BD26-ACCCF199BF00</string>
+	<string>0D23D45F-874D-42CA-94AF-D9C920062A4F</string>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>514147345.47136497</real>
+	<real>538591869.42518103</real>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2317,7 +2309,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/leonardotegon/dotfiles/iterm</string>
+	<string>~/dotfiles/iterm</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2325,11 +2317,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=57</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=84</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-24T17:49:55Z</date>
+	<date>2018-07-30T00:26:35Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
@@ -2341,6 +2333,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 </dict>
 </plist>
