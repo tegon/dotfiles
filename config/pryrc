@@ -31,3 +31,11 @@ end
 Pry.config.commands.command "lastcopy", "Last result copy to clipboard" do
   pbcopy _pry_.last_result.to_s.chomp
 end
+
+Pry.config.commands.command "active_record_log", "Send ActiveRecord log to STDOUT" do
+  if defined?(ActiveRecord::Base)
+    ActiveRecord::Base.logger = Logger.new(STDOUT)
+  else
+    output.puts "ActiveRecord::Base is not defined"
+  end
+end
