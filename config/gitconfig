@@ -27,6 +27,8 @@
   excludesfile = ~/.gitignore
 [merge]
   ff = false
+	tool = vimdiff
+	conflictstyle = diff3
 [commit]
   template = ~/.gitmessage
   gpgsign = true
@@ -35,3 +37,5 @@
   enabled = true
 [rebase]
   autosquash = true
+[mergetool]
+	prompt = false
