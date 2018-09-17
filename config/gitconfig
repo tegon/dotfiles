@@ -30,6 +30,7 @@
 [commit]
   template = ~/.gitmessage
   gpgsign = true
+  verbose = true
 [rerere]
   enabled = true
 [rebase]
