@@ -15,6 +15,10 @@ alias be="bundle exec"
 # Ruby
 # Start static file server
 alias static_server='ruby -run -e httpd . -p80'
+# Show all gem versions
+alias gemdup='gem list | grep ","'
+# Uninstall all gems
+alias gemempty='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
 # Unix
 alias ll="ls -al"
