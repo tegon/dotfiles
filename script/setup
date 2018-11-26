@@ -22,6 +22,7 @@ done
 
 echo "Creating src directory..."
 mkdir -p ~/src/private
+mkdir -p ~/src/public
 
 echo "Setting iterm2 preferences folder..."
 defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "~/dotfiles/iterm"
