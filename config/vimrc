@@ -57,6 +57,7 @@ Plugin 'janko-m/vim-test'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'AndrewRadev/splitjoin.vim'
+Plugin 'elixir-lang/vim-elixir'
 
 call vundle#end()
 
@@ -88,3 +89,7 @@ nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+
+" dirty hack
+au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
+au BufRead,BufNewFile *.eex set filetype=eelixir
