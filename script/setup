@@ -10,6 +10,9 @@ echo "Installing Vundle..."
 mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+echo "Installing asdf..."
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.6.2
+
 echo "Setup configuration files..."
 
 config_files=~/dotfiles/config/*
