@@ -29,12 +29,3 @@ prompt pure
 # Add project-specific binstubs to PATH (rbenv)
 # https://github.com/rbenv/rbenv/wiki/Understanding-binstubs#adding-project-specific-binstubs-to-path
 export PATH="./bin:$PATH"
-
-# NVM
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-
-# asdf
-. $HOME/.asdf/asdf.sh
-
-. $HOME/.asdf/completions/asdf.bash
