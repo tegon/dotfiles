@@ -25,7 +25,3 @@ prompt pure
 
 # autojump
 [[ -s /usr/local/etc/profile.d/autojump.sh ]] && . /usr/local/etc/profile.d/autojump.sh
-
-# Add project-specific binstubs to PATH (rbenv)
-# https://github.com/rbenv/rbenv/wiki/Understanding-binstubs#adding-project-specific-binstubs-to-path
-export PATH="./bin:$PATH"
