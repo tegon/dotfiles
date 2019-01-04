@@ -65,7 +65,7 @@ call vundle#end()
 noremap nt :NERDTreeToggle<CR>
 
 " ctrlp.vim
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|deps'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|deps\|_build'
 
 " set leader key to comma
 let mapleader = ","
