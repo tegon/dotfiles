@@ -97,3 +97,7 @@ au BufRead,BufNewFile *.eex set filetype=eelixir
 
 " mix-format config
 let g:mix_format_on_save = 1
+
+" debug abbreviations
+ab pry require 'pry'; binding.pry
+ab pryx require(IEx) && IEx.pry
