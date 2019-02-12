@@ -15,6 +15,7 @@
   context = blame
   week = shortlog --since=last_week
   last-tag = describe --tags
+  pr = !sh -c 'git log --merges --ancestry-path --oneline $1..master | tail -n 1' -
 [color]
   ui = true
 [user]
