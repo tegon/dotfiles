@@ -40,3 +40,5 @@
   autosquash = true
 [mergetool]
   prompt = false
+[help]
+  autocorrect = 1
