@@ -14,6 +14,7 @@
   show-merge = "!sh -c 'merge=$(git find-merge $0 $1) && [ -n \"$merge\" ] && git show $merge'"
   context = blame
   week = shortlog --since=last_week
+  last-tag = describe --tags
 [color]
   ui = true
 [user]
