@@ -37,6 +37,9 @@
 -- typing them in lower case.
 \set COMP_KEYWORD_CASE upper
 
+-- Show query times
+\timing
+
 -- Stop being quiet, we want logs now :)
 \set QUIET 0
 
