@@ -59,6 +59,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'mhinz/vim-mix-format'
 Plugin 'slashmili/alchemist.vim'
+Plugin 'ayu-theme/ayu-vim'
 
 call vundle#end()
 
@@ -71,18 +72,31 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|deps\|_build'
 " set leader key to comma
 let mapleader = ","
 
-" default colorscheme
-colorscheme nord
-
+" Nord theme
+"colorscheme nord
 " lightline.vim config
+"let g:lightline = {
+      "\ 'colorscheme': 'wombat',
+      "\ 'component': {
+      "\   'readonly': '%{&readonly?"x":""}',
+      "\ },
+      "\ 'separator': { 'left': '', 'right': '' },
+      "\ 'subseparator': { 'left': '|', 'right': '|' }
+      "\ }
+
+" Ayu theme
+set termguicolors     " enable true colors support
+let ayucolor="light"
+colorscheme ayu
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'PaperColor',
       \ 'component': {
       \   'readonly': '%{&readonly?"x":""}',
       \ },
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '|', 'right': '|' }
       \ }
+
 
 " test.vim
 nmap <silent> <leader>t :TestNearest<CR>
