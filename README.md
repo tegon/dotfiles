@@ -42,6 +42,12 @@ And choose the one you want, for example: `(Preferences -> Profiles -> Colors ->
 
 That's it :)
 
-# Screenshot (Nord theme)
+## Screenshots
 
-![Screenshot](screenshot.png)
+### Nord
+
+![Nord](screenshots/nord.png)
+
+### Ayu
+
+![Ayu](screenshots/ayu.png)
