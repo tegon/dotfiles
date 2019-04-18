@@ -17,7 +17,3 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 export EDITOR="vim"
 
 PATH=$PATH:/usr/local/sbin
-
-# Add project-specific binstubs to PATH (rbenv)
-# https://github.com/rbenv/rbenv/wiki/Understanding-binstubs#adding-project-specific-binstubs-to-path
-export PATH="./bin:$PATH"
