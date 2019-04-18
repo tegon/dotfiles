@@ -73,29 +73,28 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|deps\|_build'
 let mapleader = ","
 
 " Nord theme
-"colorscheme nord
-" lightline.vim config
-"let g:lightline = {
-      "\ 'colorscheme': 'wombat',
-      "\ 'component': {
-      "\   'readonly': '%{&readonly?"x":""}',
-      "\ },
-      "\ 'separator': { 'left': '', 'right': '' },
-      "\ 'subseparator': { 'left': '|', 'right': '|' }
-      "\ }
-
-" Ayu theme
-set termguicolors     " enable true colors support
-let ayucolor="light"
-colorscheme ayu
+colorscheme nord
 let g:lightline = {
-      \ 'colorscheme': 'PaperColor',
+      \ 'colorscheme': 'wombat',
       \ 'component': {
       \   'readonly': '%{&readonly?"x":""}',
       \ },
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '|', 'right': '|' }
       \ }
+
+" Ayu theme
+"set termguicolors     " enable true colors support
+"let ayucolor="light"
+"colorscheme ayu
+"let g:lightline = {
+      "\ 'colorscheme': 'PaperColor',
+      "\ 'component': {
+      "\   'readonly': '%{&readonly?"x":""}',
+      "\ },
+      "\ 'separator': { 'left': '', 'right': '' },
+      "\ 'subseparator': { 'left': '|', 'right': '|' }
+      "\ }
 
 
 " test.vim
