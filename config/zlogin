@@ -17,3 +17,6 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 export EDITOR="vim"
 
 PATH=$PATH:/usr/local/sbin
+
+# AWS cli
+export PATH=~/Library/Python/2.7/bin:$PATH
