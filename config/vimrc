@@ -114,3 +114,7 @@ let g:mix_format_on_save = 1
 " debug abbreviations
 ab rpry require 'pry'; binding.pry
 ab rpryx require(IEx) && IEx.pry
+
+" disable modelines
+set modelines=0
+set nomodeline
