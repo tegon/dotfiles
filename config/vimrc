@@ -106,7 +106,7 @@ nmap <silent> <leader>g :TestVisit<CR>
 
 " dirty hack for elixir files
 au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
-au BufRead,BufNewFile *.eex set filetype=eelixir
+au BufRead,BufNewFile *.eex,*.leex set filetype=eelixir
 
 " mix-format config
 let g:mix_format_on_save = 1
