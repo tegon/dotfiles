@@ -28,3 +28,6 @@ prompt pure
 
 # Set default locale for VIM
 export LC_ALL=en_US.UTF-8
+
+# direnv
+eval "$(direnv hook zsh)"
