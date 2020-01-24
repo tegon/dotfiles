@@ -60,6 +60,7 @@ Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'mhinz/vim-mix-format'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'ayu-theme/ayu-vim'
+Plugin 'rizzatti/dash.vim'
 
 call vundle#end()
 
@@ -118,3 +119,6 @@ ab rpryx require(IEx) && IEx.pry
 " disable modelines
 set modelines=0
 set nomodeline
+
+" dash.vim
+nmap <silent> <leader>d <Plug>DashSearch
