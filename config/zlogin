@@ -29,3 +29,5 @@ eval "$(direnv hook zsh)"
 
 # Mix escripts (mostly for Twirp for now)
 export PATH=$PATH:/Users/tegon/.asdf/installs/elixir/1.10.1/.mix/escripts
+
+source $HOME/.zlogin-secure
