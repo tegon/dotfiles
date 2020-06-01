@@ -25,9 +25,3 @@ prompt pure
 
 # autojump
 [[ -s /usr/local/etc/profile.d/autojump.sh ]] && . /usr/local/etc/profile.d/autojump.sh
-
-# Set default locale for VIM
-export LC_ALL=en_US.UTF-8
-
-# direnv
-eval "$(direnv hook zsh)"

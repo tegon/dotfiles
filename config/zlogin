@@ -20,3 +20,12 @@ PATH=$PATH:/usr/local/sbin
 
 # AWS cli
 export PATH=~/Library/Python/2.7/bin:$PATH
+
+# Set default locale for VIM
+export LC_ALL=en_US.UTF-8
+
+# direnv
+eval "$(direnv hook zsh)"
+
+# Mix escripts (mostly for Twirp for now)
+export PATH=$PATH:/Users/tegon/.asdf/installs/elixir/1.10.1/.mix/escripts
