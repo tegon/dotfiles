@@ -61,6 +61,7 @@ Plugin 'mhinz/vim-mix-format'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'ayu-theme/ayu-vim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'nightsense/snow'
 
 call vundle#end()
 
@@ -74,15 +75,15 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|deps\|_build\|vendor'
 let mapleader = ","
 
 " Nord theme
-colorscheme nord
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ 'component': {
-      \   'readonly': '%{&readonly?"x":""}',
-      \ },
-      \ 'separator': { 'left': '', 'right': '' },
-      \ 'subseparator': { 'left': '|', 'right': '|' }
-      \ }
+"colorscheme nord
+"let g:lightline = {
+      "\ 'colorscheme': 'wombat',
+      "\ 'component': {
+      "\   'readonly': '%{&readonly?"x":""}',
+      "\ },
+      "\ 'separator': { 'left': '', 'right': '' },
+      "\ 'subseparator': { 'left': '|', 'right': '|' }
+      "\ }
 
 " Ayu theme
 "set termguicolors     " enable true colors support
@@ -97,6 +98,11 @@ let g:lightline = {
       "\ 'subseparator': { 'left': '|', 'right': '|' }
       "\ }
 
+" Snow theme
+set background=light
+colorscheme snow
+let g:lightline = { 'colorscheme': 'snow_light' }
+set termguicolors     " enable true colors support
 
 " test.vim
 nmap <silent> <leader>t :TestNearest<CR>
