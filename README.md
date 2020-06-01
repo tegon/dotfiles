@@ -51,3 +51,7 @@ That's it :)
 ### Ayu
 
 ![Ayu](screenshots/ayu.png)
+
+### Snow
+
+![Snow](screenshots/snow.png)
