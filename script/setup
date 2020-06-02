@@ -29,6 +29,10 @@ echo "Copy Karabiner config..."
 
 ln -s ~/dotfiles/karabiner ~/.config
 
+echo "Copy Kitty config..."
+
+ln -s ~/dotfiles/kitty ~/.config
+
 echo "Creating src directory..."
 mkdir -p ~/src/private
 mkdir -p ~/src/public
