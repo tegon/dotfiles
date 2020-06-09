@@ -20,6 +20,8 @@ PATH=$PATH:/usr/local/sbin
 
 # AWS cli
 export PATH=~/Library/Python/2.7/bin:$PATH
+export AWS_DEFAULT_REGION=us-east-1
+export AWS_PAGER=""
 
 # Set default locale for VIM
 export LC_ALL=en_US.UTF-8
