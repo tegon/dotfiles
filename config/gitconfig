@@ -16,6 +16,8 @@
   week = shortlog --since=last_week
   last-tag = describe --tags
   pr = !sh -c 'git log --merges --ancestry-path --oneline $1..master | tail -n 1' -
+  clean-local-branches = !sh -c 'git br | grep -v master | grep -v develop | xargs git branch -D'
+  clean-remote-branches = remote prune origin
 [color]
   ui = true
 [user]
