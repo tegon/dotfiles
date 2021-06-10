@@ -27,7 +27,7 @@ export LC_ALL=en_US.UTF-8
 eval "$(direnv hook zsh)"
 
 # Mix escripts (mostly for Twirp for now)
-export PATH=$PATH:/Users/tegon/.asdf/installs/elixir/1.10.1/.mix/escripts
+export PATH=$PATH:/Users/tegon/.asdf/installs/elixir/1.11.2-otp-23/.mix/escripts
 
 source $HOME/.zlogin-secure
 
