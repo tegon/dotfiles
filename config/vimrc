@@ -62,7 +62,6 @@ Plugin 'slashmili/alchemist.vim'
 Plugin 'ayu-theme/ayu-vim'
 Plugin 'rizzatti/dash.vim'
 Plugin 'nightsense/snow'
-Plugin 'rstacruz/vim-gitgrep'
 
 call vundle#end()
 
