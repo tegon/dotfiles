@@ -47,7 +47,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-surround'
-Plugin 'arcticicestudio/nord-vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
@@ -59,9 +58,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'mhinz/vim-mix-format'
 Plugin 'slashmili/alchemist.vim'
-Plugin 'ayu-theme/ayu-vim'
 Plugin 'rizzatti/dash.vim'
-Plugin 'nightsense/snow'
 
 call vundle#end()
 
@@ -75,6 +72,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|deps\|_build\|vendor\|
 let mapleader = ","
 
 " Nord theme
+" Plugin 'arcticicestudio/nord-vim'
 "colorscheme nord
 "let g:lightline = {
       "\ 'colorscheme': 'wombat',
@@ -86,6 +84,7 @@ let mapleader = ","
       "\ }
 
 " Ayu theme
+" Plugin 'ayu-theme/ayu-vim'
 "set termguicolors     " enable true colors support
 "let ayucolor="light"
 "colorscheme ayu
@@ -99,6 +98,7 @@ let mapleader = ","
       "\ }
 
 " Snow theme
+Plugin 'nightsense/snow'
 set background=light
 colorscheme snow
 let g:lightline = { 'colorscheme': 'snow_light' }
