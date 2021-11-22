@@ -122,6 +122,6 @@ set nomodeline
 " dash.vim
 nmap <silent> <leader>d <Plug>DashSearch
 let g:dash_map = {
-    \ 'elixir' : 'elixir hex',
-    \ 'ruby' : 'ruby rails rubygems'
+    \ 'elixir' : ['elixir', 'hex'],
+    \ 'ruby' : ['ruby', 'rails', 'rubygems']
     \ }
