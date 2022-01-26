@@ -23,7 +23,7 @@
 [user]
   name = Leonardo Tegon
   email = ltegon93@gmail.com
-  signingKey = E3DD9A4E287B1ACA
+  signingKey = 0F5436B527117B40
 [includeIf "gitdir:~/src/private/"]
   path = ~/.gitconfig-work
 [pull]
