@@ -4,7 +4,7 @@ echo "Configuring brew shell..."
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo "Installing Oh my ZSH..."
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 chsh -s /bin/zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/plugins/zsh-autosuggestions
@@ -46,8 +46,5 @@ mkdir -p ~/src/public
 echo "Setting iterm2 preferences folder..."
 defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "~/dotfiles/iterm"
 defaults write com.googlecode.iterm2 "LoadPrefsFromCustomFolder" -bool true
-
-echo "Installing ZSH pure prompt..."
-npm install --global pure-prompt
 
 echo "Done :)"
