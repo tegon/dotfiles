@@ -2,9 +2,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # asdf
-. $HOME/.asdf/asdf.sh
-
-. $HOME/.asdf/completions/asdf.bash
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Keep shell history for erlang/elixir
 export ERL_AFLAGS="-kernel shell_history enabled"
