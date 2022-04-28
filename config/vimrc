@@ -50,8 +50,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'itchyny/lightline.vim'
 Plugin 'janko-m/vim-test'
 Plugin 'tpope/vim-rhubarb'
-Plugin 'mhinz/vim-mix-format'
 Plugin 'rizzatti/dash.vim'
+Plugin 'dense-analysis/ale'
 
 call vundle#end()
 
@@ -108,9 +108,6 @@ nmap <silent> <leader>g :TestVisit<CR>
 au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
 au BufRead,BufNewFile *.eex,*.leex set filetype=eelixir
 
-" mix-format config
-let g:mix_format_on_save = 1
-
 " debug abbreviations
 ab rpry require 'pry'; binding.pry
 ab rpryx require(IEx) && IEx.pry
@@ -125,3 +122,12 @@ let g:dash_map = {
     \ 'elixir' : ['elixir', 'hex'],
     \ 'ruby' : ['ruby', 'rails', 'rubygems']
     \ }
+
+" ALE
+let g:ale_fixers = {
+    \ 'javascript': ['prettier'],
+    \ 'css': ['prettier'],
+    \ 'elixir': ['mix_format']
+    \ }
+
+let g:ale_fix_on_save = 1
