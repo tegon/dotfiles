@@ -127,7 +127,8 @@ let g:dash_map = {
 let g:ale_fixers = {
     \ 'javascript': ['prettier'],
     \ 'css': ['prettier'],
-    \ 'elixir': ['mix_format']
+    \ 'elixir': ['mix_format'],
+    \ 'eelixir': ['mix_format']
     \ }
 
 let g:ale_fix_on_save = 1
