@@ -46,4 +46,7 @@ echo "Setting iterm2 preferences folder..."
 defaults write com.googlecode.iterm2 "PrefsCustomFolder" -string "~/dotfiles/iterm"
 defaults write com.googlecode.iterm2 "LoadPrefsFromCustomFolder" -bool true
 
+echo "Creating default PG user..."
+createuser -s postgres
+
 echo "Done :)"
