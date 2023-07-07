@@ -17,6 +17,7 @@ echo "Configuring asdf..."
 asdf plugin add erlang
 asdf plugin add elixir
 asdf plugin add rebar https://github.com/Stratus3D/asdf-rebar.git
+asdf plugin add nodejs
 
 echo "Setup configuration files..."
 
