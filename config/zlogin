@@ -28,3 +28,6 @@ export PATH=$PATH:/Users/tegon/.asdf/installs/elixir/1.11.2-otp-23/.mix/escripts
 
 # RVM
 eval "$(rbenv init -)"
+
+# GPG
+export GPG_TTY=$(tty)
