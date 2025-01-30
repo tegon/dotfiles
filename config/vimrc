@@ -52,6 +52,7 @@ Plugin 'janko-m/vim-test'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'rizzatti/dash.vim'
 Plugin 'dense-analysis/ale'
+Plugin 'github/copilot.vim'
 
 call vundle#end()
 
